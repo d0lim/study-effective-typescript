@@ -6,7 +6,7 @@ class C {
 }
 const c = new C("this is foo");
 const d: C = {
-  foo: "this is not an instance of class C but assignable to d, thanks to duck-typing",
+  foo: "this is not an instance of class C but assignable to d with type C, thanks to duck-typing",
 };
 
 console.log(c);
